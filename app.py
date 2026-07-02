@@ -17,8 +17,7 @@ def home():
             sentiment = "Negative"
         else:
             sentiment = "Neutral"
-
-        return render_template("index.html", text=text, sentiment=sentiment,
+return render_template("index.html", text=text, sentiment=sentiment,
                                polarity=polarity, subjectivity=subjectivity)
     return render_template("index.html")
 
