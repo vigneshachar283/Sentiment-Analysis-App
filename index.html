@@ -9,8 +9,7 @@
         <textarea name="text" rows="5" cols="40"></textarea><br>
         <button type="submit">Analyze</button>
     </form>
-
-    {% if sentiment %}
+ {% if sentiment %}
         <h3>Text: {{ text }}</h3>
         <p>Sentiment: {{ sentiment }}</p>
         <p>Polarity: {{ polarity }}</p>
