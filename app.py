@@ -20,5 +20,5 @@ def home():
             return render_template("index.html", text=text, sentiment=sentiment,
                                polarity=polarity, subjectivity=subjectivity)
     return render_template("index.html")
-if __name__ == "__main__":
+    if __name__ == "__main__":
     app.run(debug=True)
